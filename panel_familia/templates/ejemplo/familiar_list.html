@@ -17,7 +17,9 @@
         <a href="{% url 'familiar-borrar' familiar.id %}">Borrar</a>
         <a href="{% url 'familiar-actualizar' familiar.id %}">Actualizar</a>
     </li>
-{% endfor %}    
+{% endfor %} 
+
+<a href="{% url 'familiar-crear' %}">Crear Nuevo Familiar</a>
 </ul>
 
 </body>
